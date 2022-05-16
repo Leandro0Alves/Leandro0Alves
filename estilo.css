@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2? family= IBM+Plex+Sans:wght@300 & family= Montserrat:wght@100 & display=swap');
+
+
+body{
+  font-family: Montserrat, sans serif;
+}
+
+@keyframes anima{
+  0%{ top: 27px; right: 1;}
+  10%{ top: 27px; right: 15;}
+  100%{ top: 27px; right: 30px;}
+}
+
+
+
+#pic {
+border: solid 2px #ffffff;
+width: 140px;
+position: absolute;
+right: 15px;
+top: 27px;
+color: #544D57;
+border-radius: 55px 55px 8px 55px;
+box-shadow: 0px 0px 20px black;
+}
+
+#pic:hover , #pic:focus{
+  animation-name: anima;
+  animation-duration: 2s;
+}
+
+h2, h3, p {padding: 0px 0px 0px 10px;
+}
+
+h1{
+  color:white;
+}
+
+#formacao h2{
+  color: #FA3124;
+}
+
+a{
+  color: #544D57;
+  transition-property: color;
+  transition-duration: 0.20s;
+}
+
+a:hover , a:focus {
+  background-color:#FA3124;
+  color:white;
+  margin: -10px;
+  padding: 10px;
+  border-radius:20px;
+  transition-property:background-color;
+  transition-duration: 1s;
+  
+  }
+
+header{
+  background-color:#1B191C;
+  padding: 30px;
+  text-align: center;
+}
+
+header li{
+  display: inline;
+  padding: 10px; 
+  margin: 8px;
+  background-color:#252226;
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px black;
+  
+  transition-property: box-shadow;
+  transition-duration: 1s;
+}
+
+header li:focus , header li:hover {
+  box-shadow: 0px 0px 15px #FA3124;
+  
+}
+
+
+article#formacao{
+  background-color:silver;
+  padding: 30px;
+}
+
+article#publicacoes{
+  color:black;
+  background-color:silver;
+  padding: 30px;
+}
+
+#publicacoes h2, #formacao h2{
+  line-height: 1px;
+  font-size: 3em;
+  color:#FA3124;
+}
+
+p{
+ line-height: 20px;  
+}
+
+#publicacoes h3, #formacao h3{
+  color:#black;
+}
+
+article#habilidades{
+  padding: 30px;  
+  background-color: #FA3124;
+}
+
+#habilidades h2{
+font-size: 2em;
+text-align: center;
+}
+
+#habilidades li{
+  display: inline;
+  padding: 45px;
+  text-align: center;
+  
+}
